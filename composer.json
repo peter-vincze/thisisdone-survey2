@@ -1,0 +1,17 @@
+{
+    "name": "done./php-survey2",
+    "authors": [
+        {
+            "name": "Daniel Bartos",
+            "email": "bartos.daniel@thisisdone.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {
+        "phpunit/phpunit": "^7.2"
+    }
+}
