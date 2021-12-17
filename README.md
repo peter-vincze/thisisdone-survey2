@@ -15,7 +15,7 @@ that has sets of properties and method of values and operations that can be acce
 *  Accessing a property or call to a method other than values and operations should throw InvalidInputException (you don't have to re-declare the exception class, it's been done for you).
 *  class Calculator cannot have more than 3 (three) methods including init().
 *  Maximum input and calculation value is 9 digit, if user try to input more than 9 digit or some calculation returns a value longer than 9 digit, throw a DigitCountOverflowException (you don't have to re-declare the exception class, it's been done for you).
-*  If a number is divided by zero, throw a DivisionByZeroException (you don't have to re-declare the exception class, it's been done for you).
+*  If a number is divided by zero, throw a DivisionByZeroException (you don't have to re-declare the exception class, it's been done for you). This is not true, this Exception is missing, so I've created
 #### Examples:
     Calculator::init()->one();                  // should return 1
     Calculator::init()->one->zero();            // should return 10
